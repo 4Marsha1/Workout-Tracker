@@ -1,0 +1,91 @@
+.navbar {
+	padding: 2.5rem 6rem;
+	margin: 0;
+	background-color: white;
+}
+.navbar__text {
+	font-size: 2.5rem;
+	font-weight: 600;
+}
+.wrapper {
+	padding: 2rem 6rem;
+	display: flex;
+	gap: 3rem;
+}
+.card__container {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+.card {
+	padding: 1rem 1rem;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+}
+.card__content {
+	display: flex;
+	flex-direction: column;
+	gap: 0.4rem;
+}
+.card__title {
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: rgb(4, 172, 172);
+	margin: 0.4rem 0;
+}
+.card__time {
+	font-size: 0.9rem;
+	color: gray;
+}
+.card__delete {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+.card__delete__btn {
+	background-color: #f2f4f5;
+	border: none;
+	cursor: pointer;
+	border-radius: 50%;
+}
+.form__container {
+	width: 30%;
+	padding: 0.4rem 2rem;
+}
+.form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+.form__title {
+	font-size: 1.2rem;
+	font-weight: bolder;
+}
+.form__group {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 0.8rem;
+}
+.form__group > label {
+	font-size: 1rem;
+	font-weight: 700;
+}
+.form__group > input {
+	border: none;
+	outline: none;
+	padding: 0.4rem 1rem;
+}
+input[type="submit"] {
+	background-color: rgb(4, 172, 172);
+	width: 150px;
+	padding: 0.4rem 0;
+	color: white;
+	font-size: 0.9rem;
+	font-weight: 600;
+	border: none;
+	cursor: pointer;
+}
